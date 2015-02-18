@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Audio2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tx_cabecer">REPRODUCIR SONIDO CON MEDIA PLAYER</string>
+    <string name="b_play">PLAY</string>
+    <string name="b_pause">PAUSE</string>
+    <string name="b_stop">STOP</string>
+    <string name="b_reanudar">REANUDAR SI PAUSA</string>
+    <string name="b_repe">REANUDAR SI STOP</string>
+
+</resources>

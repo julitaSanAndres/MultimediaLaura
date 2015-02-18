@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Multimedia</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tx_cabecera">Reproducir sonidos al dar al botón</string>
+    <string name="b_gato">GATO</string>
+    <string name="b_muelle">MUELLE</string>
+    <string name="b_grillos">GRILLOS</string>
+    <string name="b_risa">RISA</string>
+    <string name="b_tambor">TAMBOR</string>
+    <string name="b_torme">TORMENTA</string>
+    <string name="tx_volumen">Volumen</string>
+    <string name="tx_balance">Balance</string>
+    <string name="tx_velocidad">Speed</string>
+    <string name="audio1">Sound Pool</string>
+    <string name="audio2">Media Player</string>
+    <string name="video">Video</string>
+    <string name="imagenes">Imagenes</string>
+    <string name="tx_cabe">Reproducir video</string>
+    <string name="galeria">Entrar en la Galeria de imagenes</string>
+    <string name="imagen">Entrar en la camara de Fotos</string>
+    <string name="b_play">PLAY</string>
+    <string name="b_pause">PAUSE</string>
+    <string name="b_stop">STOP</string>
+    <string name="b_reanudar">REANUDAR</string>
+    <color name="Blanco">#FFFFFF</color>
+    <string name="tx_video_frag">Selecciona para ver un video</string>
+    <string name="tx_volver">VOLVER</string>
+    <string name="tx_sonido2">Reproducir un sonido mas largo</string>
+
+</resources>

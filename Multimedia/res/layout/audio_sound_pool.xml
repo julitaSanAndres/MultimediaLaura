@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textImagenes"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="22dp"
+        android:text="@string/tx_cabecera" 
+        android:textSize="18sp"
+        android:textColor="#0000FF"/>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <Button
+            android:id="@+id/b_gato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/botonfondo"
+            android:onClick="clickHandler"
+            android:text="@string/b_gato"
+            android:textColor="@color/Blanco"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/b_muelle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botonfondo"
+            android:onClick="clickHandler"
+            android:text="@string/b_muelle"
+            android:textColor="@color/Blanco"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/b_grillos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:background="@drawable/botonfondo"
+            android:onClick="clickHandler"
+            android:text="@string/b_grillos"
+            android:textColor="@color/Blanco"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <Button
+            android:id="@+id/b_risa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botonfondo"
+            android:onClick="clickHandler"
+            android:text="@string/b_risa"
+            android:textColor="@color/Blanco"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/b_tambor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botonfondo"
+            android:onClick="clickHandler"
+            android:text="@string/b_tambor"
+            android:textColor="@color/Blanco"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/b_tormenta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botonfondo"
+            android:onClick="clickHandler"
+            android:text="@string/b_torme"
+            android:textColor="@color/Blanco"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/volBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="25dp"
+        android:max="100"
+        android:progress="70" />
+
+    <TextView
+        android:id="@+id/tx_volumen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/tx_volumen" />
+
+    <SeekBar
+        android:id="@+id/balBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:max="200"
+        android:progress="100" />
+
+    <TextView
+        android:id="@+id/tx_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/tx_balance" />
+
+    <SeekBar
+        android:id="@+id/SpeedBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:max="200"
+        android:progress="100" />
+
+    <TextView
+        android:id="@+id/tx_Velocidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/tx_velocidad" />
+
+</LinearLayout>
